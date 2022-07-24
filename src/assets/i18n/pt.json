@@ -1,0 +1,13 @@
+{
+    "nome": "nome do titulo",
+    "descricao": "descricao completa de algo",
+    "navBar":{
+        "usuario":"Nome de usuário",
+        "labelUsuario": "digite seu nome",
+        "senha": "senha",
+        "labelSenha":"digite sua senha",
+        "lembrarSenha":"lembrar Senha",
+        "btnEntar": "Entrar",
+        "inputSearch": "procure aqui"
+    }
+}

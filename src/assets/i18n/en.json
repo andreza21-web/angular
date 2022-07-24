@@ -1,0 +1,13 @@
+{
+    "nome": "title name",
+    "descricao": "full description of something",
+    "navBar":{
+        "usuario":"Username",
+        "labelUsuario": "enter you name",
+        "senha": "Password",
+        "labelSenha":"enter you password",
+        "lembrarSenha":"Remember password",
+        "btnEntar": "Login",
+        "inputSearch": "search here"
+    }
+}

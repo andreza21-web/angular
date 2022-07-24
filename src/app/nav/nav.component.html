@@ -1,0 +1,55 @@
+<header class="header">
+
+    <a href="#" class="logo"> angular  </a>
+
+    <form action="" class="search-form">
+        <input type="search"  name="" placeholder="{{'navBar.inputSearch' | translate }}" id="searchBox">
+        <label for="searchBox" class="fas fa-search"></label>
+    </form>
+
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn" (click)="searchBtn($event)"></div>
+        <div class="fas fa-moon" id="theme-btn" (click)="themeBtn($event)"></div>
+        <div class="fas fa-user" id="login-btn" (click)="formBtn($event)"></div>
+        <div class="fas fa-bars" id="menu-btn" (click)="menuBtn($event)" ></div>
+    </div>
+
+    <div class="language">
+        <select class="form-select" (change)="changeLang($event)">
+            <option value="en" [selected]="lang =='en'">Ingles</option>
+            <option value="es" [selected]="lang =='es'">Espanhol</option>
+            <option value="pt" [selected]="lang =='pt'">Portugues</option>
+    
+        </select>
+    </div>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#home">home</a>
+        <a href="#home">home</a>
+        <a href="#home">home</a>
+        
+    </nav>
+
+    <form action="" class="login-form">
+
+        <div class="inputBox">
+            <span>{{"navBar.usuario" | translate }}</span>
+            <input type="text" placeholder="{{'navBar.labelUsuario' | translate }}">
+        </div>
+
+        <div class="inputBox">
+            <span>{{"navBar.senha" | translate }}</span>
+            <input type="password" placeholder="{{'navBar.labelSenha' | translate }}">
+        </div>
+
+        <div class="remember">
+            <input type="checkbox" name="" id="login-remember">
+            <label for="login-remember">{{"navBar.lembrarSenha" | translate }}</label>
+        </div>
+
+        <input type="submit" class="btn" value="{{'navBar.btnEntar' | translate }}">
+
+    </form>
+
+</header>
