@@ -9,6 +9,8 @@ import { AppComponent } from './app.component';
 import { LanguageInterceptor } from './interceptor/language.interceptor';
 import { NavComponent } from './nav/nav.component';
 import { PostComponent } from './post/post.component';
+import { ContactFormComponent } from './contact-form/contact-form.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -17,12 +19,14 @@ export function HttpLoaderFactory(http: HttpClient) {
   declarations: [
     AppComponent,
     NavComponent,
-    PostComponent
+    PostComponent,
+    ContactFormComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    ReactiveFormsModule,
     TranslateModule.forRoot({
       loader: {
           provide: TranslateLoader,

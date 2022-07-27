@@ -1,0 +1,19 @@
+<div class="contact" id="contactForm">
+
+    <h1 class="textoContact"> <span>{{'formulario.titulo' | translate }}</span> {{'formulario.subtitulo' | translate }} </h1>
+    <form action="" [formGroup] = "form" (ngSubmit)="onSubmit()">
+
+        <div class="inputBox">
+            <input type="text" name="nome" id="nomeId"  placeholder="{{'formulario.nome' | translate }}" formControlName="nome">
+            <input type="email" name="email" id="emaiId"   placeholder="{{'formulario.email' | translate }}" formControlName="email">
+        </div>
+
+        <div class="inputBox">
+            <input type="number" name="telefone" id="telefoneId"   placeholder="{{'formulario.telefone' | translate }}" formControlName="telefone">
+            <input type="text" name="sobrenome" id="sobrenomeId" placeholder="{{'formulario.sobrenome' | translate }}" formControlName="sobrenome">
+        </div>
+
+        <textarea name="descricao" id="descricaoId" cols="30" rows="10" maxlength="55"   placeholder="{{'formulario.descricao' | translate }}" formControlName="descricao"></textarea>
+        <input type="submit" value="{{'formulario.botao' | translate }}" class="btn">
+    </form>
+</div>

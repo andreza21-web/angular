@@ -9,5 +9,15 @@
         "lembrarSenha":"Recordar contraseña",
         "btnEntar": "acceso",
         "inputSearch": "busca aquí"
+    },
+    "formulario": {
+        "titulo":"angular",
+        "subtitulo": "estudiar",
+        "nome":"Nombre",
+        "email":"email",
+        "telefone": "teléfono",
+        "descricao": "descripción",
+        "botao": "enviar",
+        "sobrenome": "apellido"
     }
 }
