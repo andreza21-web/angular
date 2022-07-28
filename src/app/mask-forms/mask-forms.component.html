@@ -1,0 +1,19 @@
+<div class="contact" id="contactForm">
+
+    <h1 class="textoContact"> <span>{{'formulario.titulo' | translate }}</span> {{'formulario.subtitulo' | translate }}
+    </h1>
+    <form action="" [formGroup]="exemple" (ngSubmit)="onSubmit()">
+
+        <div class="inputBox">
+            <input type="text" placeholder="cpf" name="cpf" id="cpfId" formControlName="cpf" mask="000.000.000-00">
+            <input type="text" placeholder="cnpj" name="cnpj" id="cnpjId" formControlName="cnpj" mask="00.000.000/0000-00">
+        </div>
+
+        <div class="inputBox">
+            <input type="text" placeholder="telefone" name="telefone" id="telefoneId" formControlName="telefone" prefix="+55" mask="(000) 000 00 00">
+            <input type="text" placeholder="valor" name="valor" id="valorId" formControlName="valor"  mask="separator.2" thousandSeparator=".">
+        </div>
+
+        <input type="submit" value="{{'formulario.botao' | translate }}" class="btn">
+    </form>
+</div>

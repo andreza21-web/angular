@@ -11,6 +11,8 @@ import { NavComponent } from './nav/nav.component';
 import { PostComponent } from './post/post.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { MaskFormsComponent } from './mask-forms/mask-forms.component';
+import { NgxMaskModule } from 'ngx-mask';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -20,13 +22,17 @@ export function HttpLoaderFactory(http: HttpClient) {
     AppComponent,
     NavComponent,
     PostComponent,
-    ContactFormComponent
+    ContactFormComponent,
+    MaskFormsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     ReactiveFormsModule,
+    NgxMaskModule.forRoot({
+      dropSpecialCharacters: false
+    }),
     TranslateModule.forRoot({
       loader: {
           provide: TranslateLoader,
