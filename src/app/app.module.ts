@@ -13,6 +13,7 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MaskFormsComponent } from './mask-forms/mask-forms.component';
 import { NgxMaskModule } from 'ngx-mask';
+import { FooterComponent } from './footer/footer.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -23,7 +24,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     NavComponent,
     PostComponent,
     ContactFormComponent,
-    MaskFormsComponent
+    MaskFormsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

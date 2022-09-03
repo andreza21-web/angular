@@ -1,0 +1,42 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  background: var(--bg-color-1);
+}
+
+footer h3 {
+  margin-bottom: 1.2em;
+}
+
+footer span {
+  font-size: 1.7rem;
+  color: var(--text-color-2);
+}
+
+h3 {
+  font-size: 1.7rem;
+  color: var(--roxo);
+}
+
+footer .icons {
+  padding: 7px;
+  line-height: 4.5rem;
+  font-size: 2rem;
+  border-radius: .5rem;
+  margin-left: .5rem;
+  color: var(--text-color-1);
+  cursor: pointer;
+
+}
+
+#textoFooter {
+  font-size: 1.7rem;
+  color: var(--text-color-2);
+}
+footer a {
+  text-decoration: none;
+  color:  var(--roxo);
+}
