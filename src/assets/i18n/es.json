@@ -19,5 +19,9 @@
         "descricao": "descripción",
         "botao": "enviar",
         "sobrenome": "apellido"
+    },
+    "card": {
+        "teste": "teste espanhol ",
+        "texto": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. - espanhol"
     }
 }

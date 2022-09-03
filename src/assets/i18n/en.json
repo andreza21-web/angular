@@ -19,5 +19,9 @@
         "descricao": "description",
         "botao": "submit",
         "sobrenome": "last name"
+    },
+    "card": {
+        "teste": "teste ingles",
+        "texto": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. ingles "
     }
 }

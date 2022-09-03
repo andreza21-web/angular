@@ -1,23 +1,27 @@
 {
     "nome": "nome do titulo",
     "descricao": "descricao completa de algo",
-    "navBar":{
-        "usuario":"Nome de usuário",
+    "navBar": {
+        "usuario": "Nome de usuário",
         "labelUsuario": "digite seu nome",
         "senha": "senha",
-        "labelSenha":"digite sua senha",
-        "lembrarSenha":"lembrar Senha",
+        "labelSenha": "digite sua senha",
+        "lembrarSenha": "lembrar Senha",
         "btnEntar": "Entrar",
         "inputSearch": "procure aqui"
     },
     "formulario": {
-        "titulo":"angular",
+        "titulo": "angular",
         "subtitulo": "estudo",
-        "nome":"nome",
-        "email":"email",
+        "nome": "nome",
+        "email": "email",
         "telefone": "telefone",
         "descricao": "descricao",
         "botao": "enviar",
         "sobrenome": "sobrenome"
+    },
+    "card": {
+        "teste": "teste = portugues",
+        "texto": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. portugues"
     }
 }
