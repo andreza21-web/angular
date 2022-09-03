@@ -87,7 +87,7 @@
 }
 
 .header .icons div:hover{
-    color:#fff;
+    color:var(--text-color-1);
     background:var(--roxo);
 }
 
