@@ -1,6 +1,6 @@
-export class FormularioMask {
-    cpf: string = '';
-    cnpj: string = '';
-    telefone: string = '';
-    valor: string = '';
+export interface FormularioMask {
+    cpf: string ;
+    cnpj: string ;
+    telefone: string;
+    valor: string ;
 }
